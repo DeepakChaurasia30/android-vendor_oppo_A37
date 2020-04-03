@@ -53,6 +53,7 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/a6010/proprietary/vendor/bin/hw/vendor.qti.hardware.perf@1.0-service:system/vendor/bin/hw/vendor.qti.hardware.perf@1.0-service \
     vendor/lenovo/a6010/proprietary/vendor/etc/init/vendor.qti.hardware.perf@1.0-service.rc:system/vendor/etc/init/vendor.qti.hardware.perf@1.0-service.rc \
     vendor/lenovo/a6010/proprietary/vendor/etc/perf/perfboostsconfig.xml:system/vendor/etc/perf/perfboostsconfig.xml \
+    vendor/lenovo/a6010/proprietary/vendor/etc/permissions/com.qti.snapdragon.sdk.display.xml:system/vendor/etc/permissions/com.qti.snapdragon.sdk.display.xml \
     vendor/lenovo/a6010/proprietary/vendor/lib/libqti_performance.so:system/vendor/lib/libqti_performance.so \
     vendor/lenovo/a6010/proprietary/vendor/lib/libperfgluelayer.so:system/vendor/lib/libperfgluelayer.so \
     vendor/lenovo/a6010/proprietary/vendor/lib/libqti-perfd.so:system/vendor/lib/libqti-perfd.so \
@@ -182,6 +183,7 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/a6010/proprietary/vendor/lib/libmm-abl-oem.so:system/vendor/lib/libmm-abl-oem.so \
     vendor/lenovo/a6010/proprietary/vendor/lib/libmm-abl.so:system/vendor/lib/libmm-abl.so \
     vendor/lenovo/a6010/proprietary/vendor/lib/libmm-als.so:system/vendor/lib/libmm-als.so \
+    vendor/lenovo/a6010/proprietary/vendor/lib/libmm-hdcpmgr.so:system/vendor/lib/libmm-hdcpmgr.so \
     vendor/lenovo/a6010/proprietary/vendor/lib/libmmcamera2_c2d_module.so:system/vendor/lib/libmmcamera2_c2d_module.so \
     vendor/lenovo/a6010/proprietary/vendor/lib/libmmcamera2_cpp_module.so:system/vendor/lib/libmmcamera2_cpp_module.so \
     vendor/lenovo/a6010/proprietary/vendor/lib/libmmcamera2_frame_algorithm.so:system/vendor/lib/libmmcamera2_frame_algorithm.so \
@@ -250,6 +252,7 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/a6010/proprietary/vendor/lib/libsc-a3xx.so:system/vendor/lib/libsc-a3xx.so \
     vendor/lenovo/a6010/proprietary/vendor/lib/libscale.so:system/vendor/lib/libscale.so \
     vendor/lenovo/a6010/proprietary/vendor/lib/libsmemlog.so:system/vendor/lib/libsmemlog.so \
+    vendor/lenovo/a6010/proprietary/vendor/lib/libsd_sdk_display.so:system/vendor/lib/libsd_sdk_display.so \
     vendor/lenovo/a6010/proprietary/vendor/lib/libssd.so:system/vendor/lib/libssd.so \
     vendor/lenovo/a6010/proprietary/vendor/lib/libsystem_health_mon.so:system/vendor/lib/libsystem_health_mon.so \
     vendor/lenovo/a6010/proprietary/vendor/lib/libTimeService.so:system/vendor/lib/libTimeService.so \
@@ -299,4 +302,6 @@ PRODUCT_PACKAGES += \
     shutdownlistener \
     TimeService \
     Markup \
-    qcrilmsgtunnel
+    qcrilmsgtunnel \
+    com.qti.snapdragon.sdk.display \
+    colorservice
