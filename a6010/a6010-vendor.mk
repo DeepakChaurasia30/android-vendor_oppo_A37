@@ -288,6 +288,10 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/a6010/proprietary/vendor/bin/time_daemon:system/vendor/bin/time_daemon \
     vendor/lenovo/a6010/proprietary/vendor/lib/libTimeService.so:system/vendor/lib/libTimeService.so
 
+# Moto Clock Widget
+PRODUCT_COPY_FILES += \
+    vendor/lenovo/a6010/proprietary/etc/permissions/com.motorola.timeweatherwidget.library.xml:system/etc/permissions/com.motorola.timeweatherwidget.library.xml
+
 # Dirac
 PRODUCT_COPY_FILES += \
     vendor/lenovo/a6010/proprietary/vendor/etc/diracmobile.config:$(TARGET_COPY_OUT_VENDOR)/etc/diracmobile.config \
@@ -304,4 +308,6 @@ PRODUCT_PACKAGES += \
     Markup \
     qcrilmsgtunnel \
     com.qti.snapdragon.sdk.display \
-    colorservice
+    colorservice \
+    TimeWeather \
+    com.motorola.timeweatherwidget.library
