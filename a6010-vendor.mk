@@ -262,7 +262,6 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/a6010/proprietary/vendor/lib/libsd_sdk_display.so:system/vendor/lib/libsd_sdk_display.so \
     vendor/lenovo/a6010/proprietary/vendor/lib/libssd.so:system/vendor/lib/libssd.so \
     vendor/lenovo/a6010/proprietary/vendor/lib/libsystem_health_mon.so:system/vendor/lib/libsystem_health_mon.so \
-    vendor/lenovo/a6010/proprietary/vendor/lib/libTimeService.so:system/vendor/lib/libTimeService.so \
     vendor/lenovo/a6010/proprietary/vendor/lib/libxml.so:system/vendor/lib/libxml.so \
     vendor/lenovo/a6010/proprietary/vendor/lib/libwvhidl.so:system/vendor/lib/libwvhidl.so \
     vendor/lenovo/a6010/proprietary/vendor/bin/hw/android.hardware.drm@1.2-service.widevine:system/vendor/bin/hw/android.hardware.drm@1.2-service.widevine \
@@ -294,11 +293,6 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/a6010/proprietary/vendor/lib/libldacBT_enc.so:system/vendor/lib/libldacBT_enc.so \
     vendor/lenovo/a6010/proprietary/vendor/lib/libbccQTI.so:system/vendor/lib/libbccQTI.so
 
-# Time services 
-PRODUCT_COPY_FILES += \
-    vendor/lenovo/a6010/proprietary/vendor/bin/time_daemon:system/vendor/bin/time_daemon \
-    vendor/lenovo/a6010/proprietary/vendor/lib/libTimeService.so:system/vendor/lib/libTimeService.so
-
 # Thermal Engine
 PRODUCT_COPY_FILES += \
     vendor/lenovo/a6010/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
@@ -315,7 +309,6 @@ PRODUCT_PACKAGES += \
     libloc_api_v02 \
     libloc_ds_api \
     shutdownlistener \
-    TimeService \
     qcrilmsgtunnel \
     com.qti.snapdragon.sdk.display \
     colorservice \
