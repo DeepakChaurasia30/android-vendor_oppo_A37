@@ -294,6 +294,12 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/a6010/proprietary/vendor/bin/time_daemon:system/vendor/bin/time_daemon \
     vendor/lenovo/a6010/proprietary/vendor/lib/libTimeService.so:system/vendor/lib/libTimeService.so
 
+# Thermal Engine
+PRODUCT_COPY_FILES += \
+    vendor/lenovo/a6010/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
+    vendor/lenovo/a6010/proprietary/vendor/lib/libthermalclient.so:system/vendor/lib/libthermalclient.so \
+    vendor/lenovo/a6010/proprietary/vendor/lib/libthermalioctl.so:system/vendor/lib/libthermalioctl.so
+
 # Moto Clock Widget
 PRODUCT_COPY_FILES += \
     vendor/lenovo/a6010/proprietary/etc/permissions/com.motorola.timeweatherwidget.library.xml:system/etc/permissions/com.motorola.timeweatherwidget.library.xml
