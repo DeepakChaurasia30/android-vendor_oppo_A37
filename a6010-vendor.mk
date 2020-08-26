@@ -282,7 +282,6 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/a6010/proprietary/lib/libmmosal.so:system/lib/libmmosal.so \
     vendor/lenovo/a6010/proprietary/lib/libmmparser_lite.so:system/lib/libmmparser_lite.so \
     vendor/lenovo/a6010/proprietary/lib/libsketchology_native.so:system/lib/libsketchology_native.so \
-    vendor/lenovo/a6010/proprietary/priv-app/Markup/lib/libsketchology_native.so:system/priv-app/Markup/lib/libsketchology_native.so \
     vendor/lenovo/a6010/proprietary/lib/libvpplibrary.so:system/lib/libvpplibrary.so \
     vendor/lenovo/a6010/proprietary/vendor/lib/libaptX_encoder.so:system/vendor/lib/libaptX_encoder.so \
     vendor/lenovo/a6010/proprietary/vendor/lib/libaptXHD_encoder.so:system/vendor/lib/libaptXHD_encoder.so \
@@ -311,7 +310,6 @@ PRODUCT_PACKAGES += \
     libloc_ds_api \
     shutdownlistener \
     TimeService \
-    Markup \
     qcrilmsgtunnel \
     com.qti.snapdragon.sdk.display \
     colorservice \
