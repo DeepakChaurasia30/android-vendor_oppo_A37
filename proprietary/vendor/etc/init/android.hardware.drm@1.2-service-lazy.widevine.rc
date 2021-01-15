@@ -1,4 +1,4 @@
-service vendor.drm-widevine-hal-1-2 /vendor/bin/hw/android.hardware.drm@1.2-service.widevine
+service vendor.drm-widevine-hal-1-2 /vendor/bin/hw/android.hardware.drm@1.2-service-lazy.widevine
     interface android.hardware.drm@1.0::ICryptoFactory widevine
     interface android.hardware.drm@1.0::IDrmFactory widevine
     interface android.hardware.drm@1.1::ICryptoFactory widevine
@@ -6,6 +6,8 @@ service vendor.drm-widevine-hal-1-2 /vendor/bin/hw/android.hardware.drm@1.2-serv
     interface android.hardware.drm@1.2::ICryptoFactory widevine
     interface android.hardware.drm@1.2::IDrmFactory widevine
     interface android.hidl.base@1.0::IBase widevine
+    oneshot
+    disabled
     class hal
     user media
     group media mediadrm drmrpc
