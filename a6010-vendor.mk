@@ -266,8 +266,8 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/a6010/proprietary/vendor/lib/libsystem_health_mon.so:system/vendor/lib/libsystem_health_mon.so \
     vendor/lenovo/a6010/proprietary/vendor/lib/libxml.so:system/vendor/lib/libxml.so \
     vendor/lenovo/a6010/proprietary/vendor/lib/libwvhidl.so:system/vendor/lib/libwvhidl.so \
-    vendor/lenovo/a6010/proprietary/vendor/bin/hw/android.hardware.drm@1.2-service-lazy.widevine:system/vendor/bin/hw/android.hardware.drm@1.2-service-lazy.widevine \
-    vendor/lenovo/a6010/proprietary/vendor/etc/init/android.hardware.drm@1.2-service-lazy.widevine.rc:system/vendor/etc/init/android.hardware.drm@1.2-service-lazy.widevine.rc \
+    vendor/lenovo/a6010/proprietary/vendor/bin/hw/android.hardware.drm@1.3-service-lazy.widevine:system/vendor/bin/hw/android.hardware.drm@1.3-service-lazy.widevine \
+    vendor/lenovo/a6010/proprietary/vendor/etc/init/android.hardware.drm@1.3-service-lazy.widevine.rc:system/vendor/etc/init/android.hardware.drm@1.3-service-lazy.widevine.rc \
     vendor/lenovo/a6010/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
     vendor/lenovo/a6010/proprietary/vendor/lib/libcpion.so:system/vendor/lib/libcpion.so \
     vendor/lenovo/a6010/proprietary/vendor/lib/libcppf.so:system/vendor/lib/libcppf.so \
