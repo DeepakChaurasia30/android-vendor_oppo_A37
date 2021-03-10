@@ -35,6 +35,7 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/a6010/proprietary/vendor/bin/irsc_util:system/vendor/bin/irsc_util \
     vendor/lenovo/a6010/proprietary/vendor/bin/mm-qcamera-daemon:system/vendor/bin/mm-qcamera-daemon \
     vendor/lenovo/a6010/proprietary/vendor/bin/msm_irqbalance:system/vendor/bin/msm_irqbalance \
+    vendor/lenovo/a6010/proprietary/vendor/etc/msm_irqbalance.conf:system/vendor/etc/msm_irqbalance.conf \
     vendor/lenovo/a6010/proprietary/vendor/bin/netmgrd:system/vendor/bin/netmgrd \
     vendor/lenovo/a6010/proprietary/vendor/bin/qmuxd:system/vendor/bin/qmuxd \
     vendor/lenovo/a6010/proprietary/vendor/bin/qseecomd:system/vendor/bin/qseecomd \
