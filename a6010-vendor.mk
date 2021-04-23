@@ -363,6 +363,10 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/a6010/proprietary/system/etc/permissions/android.dolby.xml:system/etc/permissions/android.dolby.xml \
     vendor/lenovo/a6010/proprietary/system/etc/sysconfig/dolby_whitelist.xml:system/etc/sysconfig/dolby_whitelist.xml
 
+# GNU parted
+PRODUCT_COPY_FILES += \
+    vendor/lenovo/a6010/proprietary/vendor/bin/parted:system/vendor/bin/parted
+
 PRODUCT_PACKAGES += \
     QPerformance \
     UxPerformance \
