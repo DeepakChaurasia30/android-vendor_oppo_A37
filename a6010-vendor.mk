@@ -310,6 +310,7 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/a6010/proprietary/vendor/lib/hw/android.hardware.gnss@2.1-impl-qti.so:system/vendor/lib/hw/android.hardware.gnss@2.1-impl-qti.so \
     vendor/lenovo/a6010/proprietary/vendor/lib/hw/vendor.qti.gnss@4.0-impl.so:system/vendor/lib/hw/vendor.qti.gnss@4.0-impl.so \
     vendor/lenovo/a6010/proprietary/vendor/lib/libbatching.so:system/vendor/lib/libbatching.so \
+    vendor/lenovo/a6010/proprietary/vendor/lib/libcdfw.so:system/vendor/lib/libcdfw.so \
     vendor/lenovo/a6010/proprietary/vendor/lib/libcdfw_remote_api.so:system/vendor/lib/libcdfw_remote_api.so \
     vendor/lenovo/a6010/proprietary/vendor/lib/libdataitems.so:system/vendor/lib/libdataitems.so \
     vendor/lenovo/a6010/proprietary/vendor/lib/libgarden.so:system/vendor/lib/libgarden.so \
