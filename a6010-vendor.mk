@@ -63,7 +63,6 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/a6010/proprietary/vendor/bin/hw/vendor.qti.hardware.perf@1.0-service:system/vendor/bin/hw/vendor.qti.hardware.perf@1.0-service \
     vendor/lenovo/a6010/proprietary/vendor/etc/init/vendor.qti.hardware.perf@1.0-service.rc:system/vendor/etc/init/vendor.qti.hardware.perf@1.0-service.rc \
     vendor/lenovo/a6010/proprietary/vendor/etc/perf/perfboostsconfig.xml:system/vendor/etc/perf/perfboostsconfig.xml \
-    vendor/lenovo/a6010/proprietary/vendor/etc/permissions/com.qti.snapdragon.sdk.display.xml:system/vendor/etc/permissions/com.qti.snapdragon.sdk.display.xml \
     vendor/lenovo/a6010/proprietary/vendor/lib/libqti_performance.so:system/vendor/lib/libqti_performance.so \
     vendor/lenovo/a6010/proprietary/vendor/lib/libperfgluelayer.so:system/vendor/lib/libperfgluelayer.so \
     vendor/lenovo/a6010/proprietary/vendor/lib/libqti-perfd.so:system/vendor/lib/libqti-perfd.so \
@@ -367,6 +366,4 @@ PRODUCT_PACKAGES += \
     QPerformance \
     UxPerformance \
     shutdownlistener \
-    qcrilmsgtunnel \
-    com.qti.snapdragon.sdk.display \
-    colorservice
+    qcrilmsgtunnel
