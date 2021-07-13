@@ -354,10 +354,6 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/a6010/proprietary/vendor/lib/libthermalclient.so:system/vendor/lib/libthermalclient.so \
     vendor/lenovo/a6010/proprietary/vendor/lib/libthermalioctl.so:system/vendor/lib/libthermalioctl.so
 
-# Moto Clock Widget
-PRODUCT_COPY_FILES += \
-    vendor/lenovo/a6010/proprietary/system/etc/permissions/com.motorola.timeweatherwidget.library.xml:system/etc/permissions/com.motorola.timeweatherwidget.library.xml
-
 # GNU parted
 PRODUCT_COPY_FILES += \
     vendor/lenovo/a6010/proprietary/vendor/bin/parted:system/vendor/bin/parted
@@ -373,6 +369,4 @@ PRODUCT_PACKAGES += \
     shutdownlistener \
     qcrilmsgtunnel \
     com.qti.snapdragon.sdk.display \
-    colorservice \
-    TimeWeather \
-    com.motorola.timeweatherwidget.library
+    colorservice
