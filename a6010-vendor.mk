@@ -294,6 +294,58 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/a6010/proprietary/vendor/lib/libldacBT_enc.so:system/vendor/lib/libldacBT_enc.so \
     vendor/lenovo/a6010/proprietary/vendor/lib/libbccQTI.so:system/vendor/lib/libbccQTI.so
 
+# GNSS stack from Jio LS-5701-J (jioospro) Jio/jioospro/jioospro:11/JIO_GO-R.11.00.023.00/2300:user/release-keys
+PRODUCT_COPY_FILES += \
+    vendor/lenovo/a6010/proprietary/vendor/bin/hw/android.hardware.gnss@2.1-service-qti:system/vendor/bin/hw/android.hardware.gnss@2.1-service-qti \
+    vendor/lenovo/a6010/proprietary/vendor/bin/garden_app:system/vendor/bin/garden_app \
+    vendor/lenovo/a6010/proprietary/vendor/bin/loc_launcher:system/vendor/bin/loc_launcher \
+    vendor/lenovo/a6010/proprietary/vendor/bin/lowi-server:system/vendor/bin/lowi-server \
+    vendor/lenovo/a6010/proprietary/vendor/bin/slim_daemon:system/vendor/bin/slim_daemon \
+    vendor/lenovo/a6010/proprietary/vendor/bin/xtra-daemon:system/vendor/bin/xtra-daemon \
+    vendor/lenovo/a6010/proprietary/vendor/bin/xtwifi-client:system/vendor/bin/xtwifi-client \
+    vendor/lenovo/a6010/proprietary/vendor/bin/xtwifi-inet-agent:system/vendor/bin/xtwifi-inet-agent \
+    vendor/lenovo/a6010/proprietary/vendor/etc/cacert_location.pem:system/vendor/etc/cacert_location.pem \
+    vendor/lenovo/a6010/proprietary/vendor/etc/xtra_root_cert.pem:system/vendor/etc/xtra_root_cert.pem \
+    vendor/lenovo/a6010/proprietary/vendor/etc/init/android.hardware.gnss@2.1-service-qti.rc:system/vendor/etc/init/android.hardware.gnss@2.1-service-qti.rc \
+    vendor/lenovo/a6010/proprietary/vendor/lib/hw/android.hardware.gnss@2.1-impl-qti.so:system/vendor/lib/hw/android.hardware.gnss@2.1-impl-qti.so \
+    vendor/lenovo/a6010/proprietary/vendor/lib/hw/vendor.qti.gnss@4.0-impl.so:system/vendor/lib/hw/vendor.qti.gnss@4.0-impl.so \
+    vendor/lenovo/a6010/proprietary/vendor/lib/libbatching.so:system/vendor/lib/libbatching.so \
+    vendor/lenovo/a6010/proprietary/vendor/lib/libcdfw_remote_api.so:system/vendor/lib/libcdfw_remote_api.so \
+    vendor/lenovo/a6010/proprietary/vendor/lib/libdataitems.so:system/vendor/lib/libdataitems.so \
+    vendor/lenovo/a6010/proprietary/vendor/lib/libgarden.so:system/vendor/lib/libgarden.so \
+    vendor/lenovo/a6010/proprietary/vendor/lib/libgarden_haltests_e2e.so:system/vendor/lib/libgarden_haltests_e2e.so \
+    vendor/lenovo/a6010/proprietary/vendor/lib/libgdtap.so:system/vendor/lib/libgdtap.so \
+    vendor/lenovo/a6010/proprietary/vendor/lib/libgeofencing.so:system/vendor/lib/libgeofencing.so \
+    vendor/lenovo/a6010/proprietary/vendor/lib/libgnss.so:system/vendor/lib/libgnss.so \
+    vendor/lenovo/a6010/proprietary/vendor/lib/libgnsspps.so:system/vendor/lib/libgnsspps.so \
+    vendor/lenovo/a6010/proprietary/vendor/lib/libgps.utils.so:system/vendor/lib/libgps.utils.so \
+    vendor/lenovo/a6010/proprietary/vendor/lib/libizat_client_api.so:system/vendor/lib/libizat_client_api.so \
+    vendor/lenovo/a6010/proprietary/vendor/lib/libizat_core.so:system/vendor/lib/libizat_core.so \
+    vendor/lenovo/a6010/proprietary/vendor/lib/liblbs_core.so:system/vendor/lib/liblbs_core.so \
+    vendor/lenovo/a6010/proprietary/vendor/lib/libloc_api_v02.so:system/vendor/lib/libloc_api_v02.so \
+    vendor/lenovo/a6010/proprietary/vendor/lib/libloc_core.so:system/vendor/lib/libloc_core.so \
+    vendor/lenovo/a6010/proprietary/vendor/lib/libloc_socket.so:system/vendor/lib/libloc_socket.so \
+    vendor/lenovo/a6010/proprietary/vendor/lib/liblocation_api.so:system/vendor/lib/liblocation_api.so \
+    vendor/lenovo/a6010/proprietary/vendor/lib/liblocationservice.so:system/vendor/lib/liblocationservice.so \
+    vendor/lenovo/a6010/proprietary/vendor/lib/liblocationservice_glue.so:system/vendor/lib/liblocationservice_glue.so \
+    vendor/lenovo/a6010/proprietary/vendor/lib/liblowi_client.so:system/vendor/lib/liblowi_client.so \
+    vendor/lenovo/a6010/proprietary/vendor/lib/liblowi_wifihal.so:system/vendor/lib/liblowi_wifihal.so \
+    vendor/lenovo/a6010/proprietary/vendor/lib/libpdmapper.so:system/vendor/lib/libpdmapper.so \
+    vendor/lenovo/a6010/proprietary/vendor/lib/libpdnotifier.so:system/vendor/lib/libpdnotifier.so \
+    vendor/lenovo/a6010/proprietary/vendor/lib/libqmi_cci-v30.so:system/vendor/lib/libqmi_cci-v30.so \
+    vendor/lenovo/a6010/proprietary/vendor/lib/libslimclient.so:system/vendor/lib/libslimclient.so \
+    vendor/lenovo/a6010/proprietary/vendor/lib/libxtadapter.so:system/vendor/lib/libxtadapter.so \
+    vendor/lenovo/a6010/proprietary/vendor/lib/libxtwifi_server_protocol.so:system/vendor/lib/libxtwifi_server_protocol.so \
+    vendor/lenovo/a6010/proprietary/vendor/lib/libxtwifi_server_protocol_uri_v3.so:system/vendor/lib/libxtwifi_server_protocol_uri_v3.so \
+    vendor/lenovo/a6010/proprietary/vendor/lib/vendor.qti.gnss@1.0.so:system/vendor/lib/vendor.qti.gnss@1.0.so \
+    vendor/lenovo/a6010/proprietary/vendor/lib/vendor.qti.gnss@1.1.so:system/vendor/lib/vendor.qti.gnss@1.1.so \
+    vendor/lenovo/a6010/proprietary/vendor/lib/vendor.qti.gnss@1.2.so:system/vendor/lib/vendor.qti.gnss@1.2.so \
+    vendor/lenovo/a6010/proprietary/vendor/lib/vendor.qti.gnss@2.0.so:system/vendor/lib/vendor.qti.gnss@2.0.so \
+    vendor/lenovo/a6010/proprietary/vendor/lib/vendor.qti.gnss@2.1.so:system/vendor/lib/vendor.qti.gnss@2.1.so \
+    vendor/lenovo/a6010/proprietary/vendor/lib/vendor.qti.gnss@3.0.so:system/vendor/lib/vendor.qti.gnss@3.0.so \
+    vendor/lenovo/a6010/proprietary/vendor/lib/vendor.qti.gnss@4.0-service.so:system/vendor/lib/vendor.qti.gnss@4.0-service.so \
+    vendor/lenovo/a6010/proprietary/vendor/lib/vendor.qti.gnss@4.0.so:system/vendor/lib/vendor.qti.gnss@4.0.so
+
 # Thermal Engine
 PRODUCT_COPY_FILES += \
     vendor/lenovo/a6010/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
