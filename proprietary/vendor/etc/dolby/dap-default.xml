@@ -440,7 +440,7 @@
     </data>
     <include preset="ieq_warm"/>
   </profile>
-  <tuning name="Speaker_landscape" classification="internal_speaker" endpoint_type="speaker" mono_device="false" has_sub="false" tuned_rate="48000" operating_mode="normal" profile_restrictions="none">
+  <tuning name="Speaker_landscape" classification="internal_speaker" endpoint_type="speaker" mono_device="false" has_sub="false" tuned_rate="44100" operating_mode="normal" profile_restrictions="none">
     <device_id id="internal_speaker" endpoint_port="internal_speaker"/>
     <device_id id="Speaker_landscape" endpoint_port="internal_speaker"/>
     <data>
@@ -488,7 +488,7 @@
         <band_regulator frequency="13875" threshold_low="-192" threshold_high="0" isolated_band="false"/>
         <band_regulator frequency="19688" threshold_low="-192" threshold_high="0" isolated_band="false"/>
       </regulator-tuning>
-      <bass-enhancer-boost value="119"/>
+      <bass-enhancer-boost value="54"/>
       <bass-enhancer-cutoff-frequency value="504"/>
       <bass-enhancer-width value="14"/>
       <bass-extraction-cutoff-frequency value="200"/>
@@ -537,7 +537,7 @@
       <regulator-speaker-dist-enable value="true"/>
     </data>
   </tuning>
-  <tuning name="Speaker_portrait" classification="internal_speaker" endpoint_type="speaker" mono_device="false" has_sub="false" tuned_rate="48000" operating_mode="normal" profile_restrictions="none">
+  <tuning name="Speaker_portrait" classification="internal_speaker" endpoint_type="speaker" mono_device="false" has_sub="false" tuned_rate="44100" operating_mode="normal" profile_restrictions="none">
     <device_id id="Speaker_portrait" endpoint_port="internal_speaker"/>
     <data>
       <audio-optimizer-bands>
@@ -584,7 +584,7 @@
         <band_regulator frequency="13875" threshold_low="-192" threshold_high="0" isolated_band="false"/>
         <band_regulator frequency="19688" threshold_low="-192" threshold_high="0" isolated_band="false"/>
       </regulator-tuning>
-      <bass-enhancer-boost value="119"/>
+      <bass-enhancer-boost value="54"/>
       <bass-enhancer-cutoff-frequency value="504"/>
       <bass-enhancer-width value="14"/>
       <bass-extraction-cutoff-frequency value="200"/>
@@ -633,7 +633,7 @@
       <regulator-speaker-dist-enable value="true"/>
     </data>
   </tuning>
-  <tuning name="Headphone" classification="unknown_headphone" endpoint_type="headphone" mono_device="false" has_sub="false" tuned_rate="48000" operating_mode="normal" profile_restrictions="none">
+  <tuning name="Headphone" classification="unknown_headphone" endpoint_type="headphone" mono_device="false" has_sub="false" tuned_rate="44100" operating_mode="normal" profile_restrictions="none">
     <device_id id="headphone_port" endpoint_port="headphone_port"/>
     <device_id id="headphone_bluetooth" endpoint_port="bluetooth"/>
     <device_id id="bluetooth" endpoint_port="bluetooth"/>
@@ -684,7 +684,7 @@
         <band_regulator frequency="13875" threshold_low="-192" threshold_high="0" isolated_band="false"/>
         <band_regulator frequency="19688" threshold_low="-192" threshold_high="0" isolated_band="false"/>
       </regulator-tuning>
-      <bass-enhancer-boost value="36"/>
+      <bass-enhancer-boost value="120"/>
       <bass-enhancer-cutoff-frequency value="160"/>
       <bass-enhancer-width value="16"/>
       <bass-extraction-cutoff-frequency value="200"/>
