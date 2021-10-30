@@ -54,7 +54,6 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/a6010/proprietary/vendor/firmware/cpp_firmware_v1_2_0.fw:system/vendor/firmware/cpp_firmware_v1_2_0.fw \
     vendor/lenovo/a6010/proprietary/vendor/firmware/cpp_firmware_v1_4_0.fw:system/vendor/firmware/cpp_firmware_v1_4_0.fw \
     vendor/lenovo/a6010/proprietary/system/lib/sensors.a6000.so:system/lib/sensors.a6010.so \
-    vendor/lenovo/a6010/proprietary/system/lib/libaptX_encoder.so:system/lib/libaptX_encoder.so \
     vendor/lenovo/a6010/proprietary/vendor/framework/qcnvitems.jar:system/vendor/framework/qcnvitems.jar \
     vendor/lenovo/a6010/proprietary/vendor/framework/qcrilhook.jar:system/vendor/framework/qcrilhook.jar \
     vendor/lenovo/a6010/proprietary/vendor/etc/permissions/qcrilhook.xml:system/vendor/etc/permissions/qcrilhook.xml \
