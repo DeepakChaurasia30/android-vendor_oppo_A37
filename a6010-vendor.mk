@@ -282,11 +282,11 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/a6010/proprietary/vendor/lib/libOmxApeDec.so:system/vendor/lib/libOmxApeDec.so \
     vendor/lenovo/a6010/proprietary/vendor/lib/libOmxApeDecSw.so:system/vendor/lib/libOmxApeDecSw.so \
     vendor/lenovo/a6010/proprietary/vendor/lib/libOmxWmaDec.so:system/vendor/lib/libOmxWmaDec.so \
-    vendor/lenovo/a6010/proprietary/system/lib/libFileMux.so:system/lib/libFileMux.so \
-    vendor/lenovo/a6010/proprietary/system/lib/libOmxMux.so:system/lib/libOmxMux.so \
+    vendor/lenovo/a6010/proprietary/vendor/lib/libFileMux.so:system/vendor/lib/libFileMux.so \
+    vendor/lenovo/a6010/proprietary/vendor/lib/libOmxMux.so:system/vendor/lib/libOmxMux.so \
     vendor/lenovo/a6010/proprietary/system/lib/libmmosal.so:system/lib/libmmosal.so \
     vendor/lenovo/a6010/proprietary/system/lib/libmmparser_lite.so:system/lib/libmmparser_lite.so \
-    vendor/lenovo/a6010/proprietary/system/lib/libOmxVpp.so:system/lib/libOmxVpp.so \
+    vendor/lenovo/a6010/proprietary/vendor/lib/libOmxVpp.so:system/vendor/lib/libOmxVpp.so \
     vendor/lenovo/a6010/proprietary/system/lib/libvpplibrary.so:system/lib/libvpplibrary.so \
     vendor/lenovo/a6010/proprietary/vendor/lib/libaptX_encoder.so:system/vendor/lib/libaptX_encoder.so \
     vendor/lenovo/a6010/proprietary/vendor/lib/libaptXHD_encoder.so:system/vendor/lib/libaptXHD_encoder.so \
