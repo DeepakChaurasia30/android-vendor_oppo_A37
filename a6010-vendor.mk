@@ -384,8 +384,6 @@ PRODUCT_PACKAGES += \
 # END Dolby Atmos
 
 PRODUCT_PACKAGES += \
-    QPerformance \
-    UxPerformance \
     shutdownlistener \
     qcrilmsgtunnel \
     vendor.qti.hardware.iop@1.0 \
