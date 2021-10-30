@@ -287,7 +287,6 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/a6010/proprietary/system/lib/libmmosal.so:system/lib/libmmosal.so \
     vendor/lenovo/a6010/proprietary/system/lib/libmmparser_lite.so:system/lib/libmmparser_lite.so \
     vendor/lenovo/a6010/proprietary/system/lib/libOmxVpp.so:system/lib/libOmxVpp.so \
-    vendor/lenovo/a6010/proprietary/system/lib/libsketchology_native.so:system/lib/libsketchology_native.so \
     vendor/lenovo/a6010/proprietary/system/lib/libvpplibrary.so:system/lib/libvpplibrary.so \
     vendor/lenovo/a6010/proprietary/vendor/lib/libaptX_encoder.so:system/vendor/lib/libaptX_encoder.so \
     vendor/lenovo/a6010/proprietary/vendor/lib/libaptXHD_encoder.so:system/vendor/lib/libaptXHD_encoder.so \
