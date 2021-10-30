@@ -12,6 +12,7 @@ cc_prebuilt_library_shared {
 			srcs: ["proprietary/system/lib/vendor.qti.hardware.iop@1.0.so"],
 		},
 	},
+	check_elf_files: false,
 	prefer: true,
 }
 
@@ -26,6 +27,7 @@ cc_prebuilt_library_shared {
 			srcs: ["proprietary/system/lib/vendor.qti.hardware.iop@2.0.so"],
 		},
 	},
+	check_elf_files: false,
 	prefer: true,
 }
 
