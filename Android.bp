@@ -30,15 +30,22 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "sensors.a6000",
+	name: "sensors.a6000__",
 	owner: "qualcomm",
 	strip: {
 		none: true,
 	},
 	target: {
 		android_arm: {
-			srcs: ["proprietary/system/lib/sensors.a6000.so"],
+			srcs: ["proprietary/system/lib/sensors.a6000__.so"],
 		},
 	},
+	shared_libs: [
+		"libc++",
+		"libcutils",
+		"liblog",
+		"libutils",
+		"libxml2"
+		],
 	prefer: true,
 }

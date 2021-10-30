@@ -388,4 +388,4 @@ PRODUCT_PACKAGES += \
     qcrilmsgtunnel \
     vendor.qti.hardware.iop@1.0 \
     vendor.qti.hardware.iop@2.0 \
-    sensors.a6000
+    sensors.a6000__
