@@ -51,3 +51,10 @@ cc_prebuilt_library_shared {
 		],
 	prefer: true,
 }
+
+dex_import {
+	name: "dolby_dax",
+	owner: "lenovo",
+	jars: ["proprietary/system/framework/dolby_dax.jar"],
+	soc_specific: true,
+}
