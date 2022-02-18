@@ -410,7 +410,6 @@ PRODUCT_PACKAGES += \
     qcrilmsgtunnel \
     shutdownlistener \
     ims \
-    imssettings \
     com.qti.snapdragon.sdk.display \
     imscmlibrary \
     qcnvitems \
