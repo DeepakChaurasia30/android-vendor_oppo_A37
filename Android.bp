@@ -52,6 +52,22 @@ cc_prebuilt_library_shared {
 	prefer: true,
 }
 
+cc_prebuilt_library_shared {
+	name: "libOpenCL",
+	owner: "qualcomm",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/lib/libOpenCL.so"],
+		},
+	},
+	check_elf_files: false,
+	soc_specific: true,
+	prefer: true,
+}
+
 dex_import {
 	name: "QtiTelephonyServicelibrary",
 	owner: "lenovo",
