@@ -70,25 +70,25 @@ cc_prebuilt_library_shared {
 
 dex_import {
 	name: "QtiTelephonyServicelibrary",
-	owner: "lenovo",
+	owner: "oppo",
 	jars: ["proprietary/system/framework/QtiTelephonyServicelibrary.jar"],
 }
 
 dex_import {
 	name: "qcnvitems",
-	owner: "lenovo",
+	owner: "oppo",
 	jars: ["proprietary/system/framework/qcnvitems.jar"],
 }
 
 dex_import {
 	name: "qcrilhook",
-	owner: "lenovo",
+	owner: "oppo",
 	jars: ["proprietary/system/framework/qcrilhook.jar"],
 }
 
 dex_import {
 	name: "dolby_dax",
-	owner: "lenovo",
+	owner: "oppo",
 	jars: ["proprietary/system/framework/dolby_dax.jar"],
 	soc_specific: true,
 }
